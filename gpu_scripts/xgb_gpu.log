@@ -1,0 +1,12 @@
+nohup: ignoring input
+XGBoost Classifier
+
+Confusion Matrix is :
+[[11321   536]
+ [ 3294  8563]]
+Traceback (most recent call last):
+  File "gpu_scripts/xgb_gpu.py", line 89, in <module>
+    XGB( x_train, x_test, y_train, y_test,tech)
+  File "gpu_scripts/xgb_gpu.py", line 55, in XGB
+    met_dic={"Accuracy":[xgb_acc_wo],'Precision': [xgb_prc_wo],'F1-Score': [xgb_f1_wo],'AUC': [xgb_auc_wo]}
+NameError: name 'xgb_f1_wo' is not defined

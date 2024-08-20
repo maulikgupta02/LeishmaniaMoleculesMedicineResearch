@@ -1,0 +1,9 @@
+nohup: ignoring input
+XGBoost Classifier
+
+Confusion Matrix is :
+[[10219  1607]
+ [ 2669  9214]]
+Accuracy_Score: 0.8196465477244929
+Roc_Score: 0.8197531952945754
+
